@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: c648b7201cb8b42e790abfb397c6b5a1
 folderAsset: yes
-timeCreated: 1476297282
+timeCreated: 1476341376
 licenseType: Free
 PluginImporter:
   serializedVersion: 1
@@ -10,12 +10,16 @@ PluginImporter:
   isPreloaded: 0
   platformData:
     Any:
-      enabled: 1
+      enabled: 0
       settings: {}
     Editor:
       enabled: 0
       settings:
         DefaultValueInitialized: true
+    iOS:
+      enabled: 1
+      settings:
+        FrameworkDependencies: AdSupport;StoreKit;
   userData: 
   assetBundleName: 
   assetBundleVariant: 
